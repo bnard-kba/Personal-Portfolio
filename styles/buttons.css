@@ -1,0 +1,35 @@
+button {
+  font-family: Montserrat, Arial;
+  font-size: 14px;
+}
+
+.linked-in-button {
+  width: 105px;
+  height: 36px;
+  border-radius: 50px;
+  border: none;
+  background-color: #0077b5;
+  color: white;
+}
+
+.linked-in-button:hover {
+  cursor: pointer;
+}
+
+.linked-in-link:visited {
+  color: white;
+}
+
+.twitter-button {
+  width: 140px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: #1da1f2;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.twitter-button-link:visited {
+  color: white;
+}

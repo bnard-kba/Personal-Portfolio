@@ -1,0 +1,22 @@
+.social-links-text {
+  font-family: Montserrat, Arial;
+  font-weight: 700;
+}
+.intro-paragraph {
+  font-family: Montserrat, Arial;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.learning-list {
+  margin-bottom: -15px;
+  font-family: Montserrat, Arial;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
