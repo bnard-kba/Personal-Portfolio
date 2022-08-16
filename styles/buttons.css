@@ -3,13 +3,19 @@ button {
   font-size: 14px;
 }
 
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .linked-in-button {
-  width: 105px;
-  height: 36px;
+  width: 140px;
+  height: 40px;
   border-radius: 50px;
   border: none;
   background-color: #0077b5;
-  color: white;
+  margin-bottom: 10px;
 }
 
 .linked-in-button:hover {
@@ -26,10 +32,23 @@ button {
   border-radius: 50px;
   border: none;
   background-color: #1da1f2;
-  color: white;
   margin-bottom: 10px;
 }
 
 .twitter-button-link:visited {
+  color: white;
+}
+
+.github-button {
+  width: 140px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: #6cc644;
+
+  margin-bottom: 10px;
+}
+
+.github-button-link:visited {
   color: white;
 }
